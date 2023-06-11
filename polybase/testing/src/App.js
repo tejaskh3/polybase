@@ -1,15 +1,13 @@
+import "./App.css";
+import PolybaseComponent from "./Polybase1";
 
-import './App.css';
-import Polybase1 from './Polybase1';
-
-
-const  App = ()=> {
+const App = () => {
   return (
     <div className="App">
       <h1>I am testing polybase here.</h1>
-      <Polybase1 ></Polybase1>
+      <PolybaseComponent />
     </div>
   );
-}
+};
 
 export default App;
